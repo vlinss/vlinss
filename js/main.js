@@ -10,10 +10,6 @@ app.config(['$routeProvider',
         templateUrl: 'sites/main.html',
         controller: 'VlinssController'
       })
-      .when('/onas', {
-        templateUrl: 'sites/onas.html',
-        controller: 'VlinssController'
-      })
       .when('/ubezpieczenia', {
         templateUrl: 'sites/ubezpieczenia.html',
         controller: 'VlinssController'
