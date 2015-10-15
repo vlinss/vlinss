@@ -16,7 +16,7 @@
         <script src="js/vendor/angular.min.js"></script>
         <script src="js/vendor/angular-route.min.js"></script>
     </head>
-    <body ng-controller="vlinssController">
+    <body ng-app="vlinssApp">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
@@ -48,7 +48,7 @@
                 </div>
             </nav>
 
-            <section ng-view="">
+            <section ng-controller="vlinssController" ng-view="">
 
             </section>
 
