@@ -41,13 +41,17 @@ body {
 }
 
 .address-list {
-  padding-top: 25%;
+  padding-top: 20%;
 }
 
 @media(max-width: 991px) {
   .address-list {
     padding-top: 0;
   }
+}
+
+.kontakt-image {
+  margin-bottom: 50px;
 }
 
 footer {
