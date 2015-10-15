@@ -1,6 +1,6 @@
 var app = angular.module('vlinssApp', ['ngRoute']);
 
-app.controller('vlinssController', function($scope) {});
+app.controller('VlinssController', function() {});
 
 app.config(['$routeProvider',
   function($routeProvider) {
@@ -8,11 +8,27 @@ app.config(['$routeProvider',
     $routeProvider
       .when('/', {
         templateUrl: 'sites/main.html',
-        controller: 'vlinssController'
+        controller: 'VlinssController'
       })
       .when('/onas', {
         templateUrl: 'sites/onas.html',
-        controller: 'vlinssController'
+        controller: 'VlinssController'
+      })
+      .when('/ubezpieczenia', {
+        templateUrl: 'sites/ubezpieczenia.html',
+        controller: 'VlinssController'
+      })
+      .when('/odszkodowania', {
+        templateUrl: 'sites/odszkodowania.html',
+        controller: 'VlinssController'
+      })
+      .when('/uslugi', {
+        templateUrl: 'sites/uslugi.html',
+        controller: 'VlinssController'
+      })
+      .when('/kontakt', {
+        templateUrl: 'sites/kontakt.html',
+        controller: 'VlinssController'
       })
       .otherwise({
         redirectTo: '/'
