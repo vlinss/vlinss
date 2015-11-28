@@ -22,6 +22,10 @@ app.config(['$routeProvider',
         templateUrl: 'sites/uslugi.html',
         controller: 'VlinssController'
       })
+      .when('/wynajem', {
+        templateUrl: 'sites/wynajem.html',
+        controller: 'VlinssController'
+      })
       .when('/kontakt', {
         templateUrl: 'sites/kontakt.html',
         controller: 'VlinssController'

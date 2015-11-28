@@ -48,6 +48,19 @@ body {
   .address-list {
     padding-top: 0;
   }
+  .navbar-header {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+}
+
+@media(max-width: 768px) {
+  .navbar-header {
+    display: block;
+  }
 }
 
 .kontakt-image {
